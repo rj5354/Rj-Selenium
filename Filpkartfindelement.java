@@ -10,9 +10,9 @@ public class Filpkartfindelement {
 	{
 		WebDriver Driver = new ChromeDriver();
 		Driver.get("https://www.flipkart.com/");
-		//Driver.findElement(By.cssSelector("button[class=\"_2KpZ6l _2doB4z\"]")).click();
-		//Thread.sleep(2000);
-		//Driver.findElement(By.cssSelector("img[alt=\"Grocery\"]")).click();
+		Driver.findElement(By.cssSelector("button[class=\"_2KpZ6l _2doB4z\"]")).click();
+		Thread.sleep(2000);
+		
 
 
 	}
