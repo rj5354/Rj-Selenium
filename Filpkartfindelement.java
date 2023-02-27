@@ -12,7 +12,8 @@ public class Filpkartfindelement {
 		Driver.get("https://www.flipkart.com/");
 		Driver.findElement(By.cssSelector("button[class=\"_2KpZ6l _2doB4z\"]")).click();
 		Thread.sleep(2000);
-		
+		Driver.manage().window.maximize();
+		Driver.manage().timeouts().implicitlywait(Duration.of.second(10));
 
 
 	}
